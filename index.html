@@ -3,19 +3,19 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Седона</title>
-    <!--какое название?-->
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
       <nav class="navigation">
-        <img class="page-header-logo" src="" alt="Логотип сайта Седона.">
+        <img class="page-header-logo" src="images/logo-site.svg" width="139" height="70" alt="Логотип сайта Седона.">
         <ul class="navigation-list">
           <li class="navigation-item">Главная</li>
           <li class="navigation-item">
             <a class="navigation-link" href="#">О Седоне</a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link" href="Catalog.html">Гостиницы</a>
+            <a class="navigation-link" href="catalog.html">Гостиницы</a>
           </li>
         </ul> 
         <ul class="navigation-list navigation-user">
@@ -35,7 +35,11 @@
     </header>
     <main class="main-index">
       <h1 class="visually-hidden">Седона — туристический городок в Аризоне!</h1>
-      <img class="logo" src="" alt="Добро пожаловать в город Седона.">
+      <img class="logo" src="images/logo-town-1.svg" width="188" height="45" alt="Добро пожаловать в город Седона.">
+      <br>
+      <img class="logo" src="images/logo-town-2.svg" width="256" height="29" alt="Добро пожаловать в город Седона.">
+      <br>
+      <img class="logo" src="images/logo-town-3.svg" width="457" height="213" alt="Добро пожаловать в город Седона.">
       <br>
       <b class="main-index">Седона — небольшой городок в Аризоне,
         заслуживающий большего!</b>
@@ -46,6 +50,7 @@
             <h3 class="advantages-desc">Настоящий городок</h3>
             <p class="advantages-description">Седона — не аттракцион для туристов, там течёт 
               своя жизнь</p>
+              <img class="advantages-foto" src="images/advantages/advantages-photo-1.jpg" width="800" height="384" alt="Фотография города Седона">
               <ul class="advantages-list">
                 <li class=advantages-title>
                   <h4 class="advantages-desc">Жильё</h4>
@@ -60,10 +65,13 @@
                   <p class="advantages-description">Не только китайского, но и настоящего местного производства!</p>
                 </li>
               </ul>
+          </li>
+          <!-- вставил закрывающий тэг Ли-->    
           <li class=advantages-title>
             <h3 class="advantages-desc">Там есть
               мост дьявола</h3>
             <p class="advantages-description">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+            <img class="advantages-foto" src="images/advantages/advantages-photo-2.jpg" width="800" height="384" alt="Фотография моста Дьявола">
           </li>
           <li class=advantages-title>
             <h3 class="advantages-desc">Небольшая площадь</h3>
@@ -86,7 +94,7 @@
         <span class="main-services-text">Укажите предполагаемые даты поездки,
         и мы покажем вам лучшие предложения гостиниц в Седоне</span>
         <br>
-        <a class="button" href="#">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</a>
+        <a class="button" href="#">поиск гостиницы в Седоне</a>
        </section>
        <section class="newsletter">
         <h2 class="newsletter-title">Подпишитесь на рассылку</h2>
@@ -96,7 +104,7 @@
           <label for="newsletter-email">Email</label>
           <input class="field" required placeholder="Ваш e-mail"  type="email" name="newsletter-email" id="newsletter-email">
           <button class="button newsletter" type="submit">
-            <span>ПОДПИСАТЬСЯ</span>
+            <span>Подписаться</span>
           </button>
         </form>
       </section>
@@ -128,7 +136,7 @@
         </address>
       <h2 class="visually-hidden">Логотип .html academy</h2>
         <a class="htmlacademy-link" href="https://htmlacademy.ru/">
-          <img class="footer-logo" src="" alt="html-academy">
+          <img class="footer-logo" src="images/logo_htmlacademy.svg" width="115" height="33" alt="логотип html-academy">
         </a>
     </footer>  
   </body>
